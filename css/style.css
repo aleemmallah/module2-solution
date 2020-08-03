@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -17,13 +17,14 @@ h2 {
     float: right;
     background-color: cornflowerblue;
     border: 2px solid black;
+    margin-right: auto;
 }
 
 p {
     clear: both;
-    height: 160px;
     font-family: Helvetica;
-    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .row {

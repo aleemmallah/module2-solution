@@ -2,27 +2,30 @@
     box-sizing: border-box;
 }
 
-body,
-html {
-    width: 100%;
-    margin-right: 5px;
-}
-
 h1 {
+    margin-bottom: 15px;
     text-align: center;
 }
 
 h2 {
-    text-align: end;
-    padding-right: 10px;
+    position: relative;
+    top: 0;
+    float: right;
+    background-color: cornflowerblue;
+    border: 2px solid black;
 }
 
-div.row {
-    margin: 5px;
+p {
+    clear: both;
+    width: 90%;
+    height: 160px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+}
+
+.row {
     width: 100%;
-    background-color: gray;
-    margin-right: 5px;
-    align-content: center;
 }
 
 
@@ -43,9 +46,6 @@ div.row {
     .col-sm-12 {
         float: left;
         border: 1px solid blue;
-        padding: 5px;
-        margin: 5px;
-        margin-right: 10px;
     }
     .col-sm-1 {
         width: 8.33%;
@@ -81,7 +81,7 @@ div.row {
         width: 91.63%
     }
     .col-sm-12 {
-        width: 98%
+        width: 100%
     }
 }
 
@@ -103,9 +103,6 @@ div.row {
     .col-md-12 {
         float: left;
         border: 1px solid blue;
-        padding: 5px;
-        margin: 5px;
-        background-color: gray;
     }
     .col-md-1 {
         width: 8.33%;
@@ -123,7 +120,7 @@ div.row {
         width: 41.65%;
     }
     .col-md-6 {
-        width: 45%;
+        width: 50%;
     }
     .col-md-7 {
         width: 58.31%;
@@ -163,9 +160,6 @@ div.row {
     .col-lg-12 {
         float: left;
         border: 1px solid blue;
-        padding: 3px;
-        margin: 5px;
-        background-color: darkkhaki;
     }
     .col-lg-1 {
         width: 8.33%;
